@@ -77,5 +77,7 @@ To configure the application, we call auto_config() and provide the path where o
 
 Finally, we obtain an instance of CurrentTimeHolder using inject.instance() and demonstrate accessing its attributes and calling its methods.
 
+### Check the examples folder for more examples.
+
 ## Conclusion
 PySpring simplifies dependency injection in Python by providing a lightweight framework for managing dependencies and configuring your application's components. It allows you to decouple your code and improve testability and modularity. Give PySpring a try and enjoy the benefits of dependency injection in your Python projects!
