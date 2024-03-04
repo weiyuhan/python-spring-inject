@@ -7,4 +7,3 @@ flake8==6.0.0
 pytest-cov==4.0.0
 pyhocon==0.3.60
 inject==5.0.0
-pydantic==1.10.7

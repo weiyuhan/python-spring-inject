@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyspring-inject"
+version = "0.0.1"
+authors = [
+  { name="Yuhan Wei", email="weiyuhan@pku.edu.cn" },
+]
+description = "Springboot-like Dependency Injection Framework for Python"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'pyhocon>=0.3.60',
+    'inject==5.0.0',
+]
+
+[project.optional-dependencies]
+tests = [
+  'pytest==7.3.1',
+  'black==23.3.0',
+  'mypy==1.2.0',
+  'isort==5.12.0',
+  'autoflake==2.1.1',
+  'flake8==6.0.0',
+  'pytest-cov==4.0.0',
+]
+
+[project.urls]
+Homepage = "https://github.com/weiyuhan/python-spring-inject"
+Issues = "https://github.com/weiyuhan/python-spring-inject/issues"
